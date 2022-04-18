@@ -1,4 +1,4 @@
-const API = "http://localhost:4000";
+const API = "https://yang-form.herokuapp.com";
 
 class YangForm {
     constructor(form, options) {
