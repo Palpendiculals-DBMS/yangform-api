@@ -2,7 +2,7 @@
   "name": "@yanggform/api",
   "version": "1.0.1",
   "description": "",
-  "git" : "https://github.com/Palpendiculals-DBMS/yangform-api.git",
+  "repository" : "https://github.com/Palpendiculals-DBMS/yangform-api.git",
   "files" : ["dist/*.js", "dist/**/&.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
