@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .__yangform__form {
+        padding: 10px;
+    }
+
+    .__yangform_field {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .__label {
+        font-weight: bold;
+    }
+
+    .__yangform__form .__checkbox,
+    .__yangform__form .__radio {
+        margin: 0px 10px;
+    }
+
+    .__yangform__form .__input {
+        padding: 5px;
+        margin: 5px;
+        outline: none;
+    }
+
+    .__yangform__form .__submit {
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        outline: none;
+        background-color: #e25b26;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .__yangform__form .__submit_form {
+        opacity: 0.5;
+        font-weight: 300;
+        font-size: 13px;
+        margin: 6px 20px;
+    }
+</style>
+
+<body>
+    Hello World
+    <div id="form">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
+        integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./dist/yangform.js"></script>
+    <script>
+        const form = new YangForm({
+            id: 'form',
+            formid: '4blll6b1olwl13pldl0',
+            api_key: '2d0e98f8c6bc464e8bddf345b3f1b6f0'
+        }, {
+
+        });
+        console.log(form);
+        console.log("hwllo")
+    </script>
+
+</body>
+
+</html>
